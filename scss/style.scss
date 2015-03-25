@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+  body {
+    background-color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    background-color: #CD2322;
+    color: #fff;
+    line-height: 15px;
+    font-size: 13px;
+    height: 40px;
+    div {
+      padding-top: 5px;
+    }
+    a {
+      color: #fff;
+    }
+    .header-container {
+      margin: 0;
+    }
+    .header-nav {
+    /*force left */
+      left: 30%;
+    }
+    .basket-count {
+      padding: 5px 9px;
+      border-radius: 20px;
+      height: 30px;
+      min-width: 30px;
+      background-color: #232428;
+      margin-left: 5px;
+      color: #fff;
+    }
+  }
