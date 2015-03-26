@@ -8,6 +8,13 @@
   .nav-logo {
     left: 48%;
   }
+  .main-image {
+    width: 55.333%;
+  }
+  .side-image {
+    width: 44.66%;
+    max-height: 273px;
+  }
 }
 
 @media only screen and (max-width: 1025px){
@@ -38,6 +45,13 @@
   }
   .block-left {
     display: none;
+  }
+  .main-image {
+    width: 100%;
+  }
+  .side-image {
+    width: 100%;
+    height: auto;
   }
 }
 

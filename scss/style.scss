@@ -177,14 +177,11 @@ nav {
 .top-content {
   @extend .normalize-row;
   .main-image {
-    width: 55.333%;
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
     height: 100%;
   }
   .side-image {
-    width: 44.66%;
-    max-height: 273px;
     border-bottom: 1px solid #fff;
     .top {
       height: 200px;
