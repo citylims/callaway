@@ -169,7 +169,20 @@ nav {
 
 .top-content {
   margin: 0;
+  max-width: 100%;
   img {
     padding: 0;
+  }
+  .main-image {
+    width: 55.333%;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+  }
+  .side-image {
+    width: 44.66%;
+    max-height: 273px;
+    .top {
+      height: 200px;
+    }
   }
 }
