@@ -5,6 +5,9 @@
   .search {
     padding: 0 25px;
   }
+  .nav-logo {
+    left: 48%;
+  }
 }
 
 @media only screen and (max-width: 1025px){
@@ -13,6 +16,9 @@
   }
   .search {
     padding: 0 10px;
+  }
+  .nav-logo {
+    left: 48%;
   }
 }
 
@@ -50,5 +56,8 @@
     float: right;
     display: block;
     color: red;
+  }
+  .nav-logo {
+    left: 45%;
   }
 }

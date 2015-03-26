@@ -29,6 +29,9 @@ header {
   .gear {
     float: left;
     padding-left: 50px;
+    a {
+      padding-left: 5px;
+    }
   }
   .header-nav {
   /*force left */
@@ -56,6 +59,7 @@ nav {
   background-color: #fff;
   text-transform: uppercase;
   color: #5A6672;
+  font-size: 15px;
   .hamburger {
     input[type="checkbox"] {
   	display: none;
@@ -99,7 +103,7 @@ nav {
     float: left;
     width: 50%;
     text-align: right;
-    padding-right: 45px;
+    padding-right: 50px;
     li {
       line-height: 14px;
     }
@@ -109,18 +113,20 @@ nav {
     i {
       display: inline;
       padding-left: 5px;
+      color: #ccc;
+      font-size: 60%;
     }
   }
   .nav-logo {
     position: absolute;
     margin-top: 10px;
-    left: 48%;
+    
     text-align: center;
   }
   .block-right {
     float: left;
     width: 50%;
-    padding-left: 45px;
+    padding-left: 50px;
     text-align: left;
     a {
       padding: 10px;
