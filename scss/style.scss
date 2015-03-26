@@ -50,8 +50,9 @@ header {
     color: #fff;
   }
   .mobile-top-nav {
-    i {
-      padding: 0 15px;
+    a i {
+      font-size: 1.3em;
+      padding: 0 5px;
     }
   }
 }
@@ -214,7 +215,6 @@ nav {
   left: auto;
   zoom: 1;
   padding: 30px 30px 40px;
-  /* opacity: 0; */
   ul {
     z-index: 5500
   }
