@@ -34,7 +34,6 @@ header {
     }
   }
   .header-nav {
-  /*force left */
     float: right;
     padding-right: 2em;
     .fa {
@@ -60,6 +59,7 @@ nav {
   text-transform: uppercase;
   color: #5A6672;
   font-size: 15px;
+  z-index: 1;
   .hamburger {
     input[type="checkbox"] {
   	display: none;
