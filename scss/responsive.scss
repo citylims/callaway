@@ -16,6 +16,17 @@
     width: 44.66%;
     max-height: 273px;
   }
+  nav {
+    .hamburger {
+      input[type="checkbox"] {
+    	display: none;
+      }
+      label {
+    	display: none;
+    	font-size: 2em;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1025px){
@@ -53,6 +64,23 @@
   }
   .side-image {
     height: 200px;
+  }
+  nav {
+    .hamburger {
+      input[type="checkbox"] {
+    	display: none;
+      }
+      .burger {
+        position: absolute;
+        left: 0;
+        margin-top: -15px;
+        padding-left: 20px;
+        label {
+      	display: block;
+      	font-size: 2em;
+        }
+      }
+    }
   }
 }
 
