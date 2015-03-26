@@ -21,6 +21,7 @@ header {
   a {
     padding: 10px;
     color: #fff;
+    transition-duration: .2s;
     &:hover {
       color: #2E3538;
     }
@@ -61,6 +62,7 @@ nav {
   color: #5A6672;
   a {
     color: #5A6672;
+    transition-duration: .2s;
     &:hover {
       color: #CD2322;
     }
@@ -77,11 +79,13 @@ nav {
   }
   .social-list {
     padding-left: 2em;
-    li a {
-
-      i {
+    li a i {
+      color: #CCCCCC;
       padding: 5px 10px;
       font-size: 80%;
+      transition-duration: .2s;
+      &:hover {
+        color: #CD2322;
       }
     }
   }
@@ -110,9 +114,13 @@ nav {
   .search {
     width: 250px;
     .fa {
+      color: #CCCCCC;
       font-size: 1.2em;
       padding-right: 10%;
       float: right;
+      &:hover {
+        color: #CD2322;
+      }
     }
   }
 }
