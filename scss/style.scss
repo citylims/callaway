@@ -16,23 +16,18 @@ header {
   font-size: 12px;
   height: 40px;
   div {
-    padding-top: 5px;
+    padding-top: 10px;
   }
   a {
-    padding: 10px;
+    padding-left: 18px;
     color: #fff;
     transition-duration: .2s;
     &:hover {
       color: #2E3538;
     }
   }
-  .row {
-    max-width: 100%;
-  }
-  .header-container {
-    margin: 0;
-  }
   .gear {
+    float: left;
     padding-left: 50px;
   }
   .header-nav {
