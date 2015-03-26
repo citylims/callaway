@@ -60,6 +60,15 @@ nav {
   background-color: #fff;
   text-transform: uppercase;
   color: #5A6672;
+  .hamburger {
+    input[type="checkbox"] {
+  	display: none;
+    }
+    label {
+  	display: none;
+  	font-size: 2em;
+    }
+  }
   a {
     color: #5A6672;
     transition-duration: .2s;
@@ -104,19 +113,25 @@ nav {
     }
   }
   .nav-logo {
+    position: absolute;
     margin-top: 10px;
+    left: 48%;
+    text-align: center;
   }
   .block-right {
+    padding-left: 100px;
+    padding-right: 13%;
     a {
       padding: 10px;
     }
   }
   .search {
-    width: 250px;
+    position: absolute;
+    right: 0;
+    padding: 0 25px;
     .fa {
       color: #CCCCCC;
       font-size: 1.2em;
-      padding-right: 10%;
       float: right;
       &:hover {
         color: #CD2322;
