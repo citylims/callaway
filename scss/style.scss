@@ -28,7 +28,7 @@ header {
   }
   .gear {
     float: left;
-    padding-left: 50px;
+    padding-left: 46px;
     a {
       padding-left: 5px;
     }
@@ -89,9 +89,10 @@ nav {
   .social-list {
     position: absolute;
     left: 0;
+    padding-left: 38px;
     li a i {
       color: #CCCCCC;
-      padding: 5px 10px;
+      padding: 6px;
       font-size: 80%;
       transition-duration: .2s;
       &:hover {
@@ -103,7 +104,7 @@ nav {
     float: left;
     width: 50%;
     text-align: right;
-    padding-right: 50px;
+    padding-right: 70px;
     li {
       line-height: 14px;
     }
@@ -120,7 +121,7 @@ nav {
   .nav-logo {
     position: absolute;
     margin-top: 10px;
-    
+
     text-align: center;
   }
   .block-right {
@@ -150,11 +151,11 @@ nav {
   width: 100%;
   background-color: #2F3639;
   color: #fff;
-  line-height: 1.8rem;
-  font-size: 90%;
+  line-height: 1.2em;
+  font-size: 85%;
   .blurb {
-    height: 100%;
     text-align: center;
+    height: 100%;
     /* padding-top: 10px; */
     padding: 10px 20px;
     a {
