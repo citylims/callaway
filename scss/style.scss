@@ -172,7 +172,10 @@ nav {
 }
 
 .main-content {
-  z-index: 2
+  z-index: 2;
+  img:hover {
+    opacity: .9;
+  }
 }
 
 .top-content {
@@ -210,7 +213,7 @@ nav {
   color: #a5aaae;
   text-align: left;
   background-color: #232428;
-  visibility: hidden;
+  display: none;
   z-index: 5000;
   width: 100%;
   left: auto;
@@ -233,16 +236,4 @@ nav {
 
 .acc-list {
   @extend .small-menu;
-}
-
-#club-hover:hover + .club-list {
-  visibility: visible;
-}
-
-#ball-hover:hover + .ball-list {
-  visibility: visible;
-}
-
-#acc-hover:hover + .acc-list {
-  visibility: visible;
 }
