@@ -69,6 +69,7 @@ nav {
   a {
     color: #5A6672;
     transition-duration: .2s;
+    font-weight: 500;
     &:hover {
       color: #CD2322;
     }
@@ -118,7 +119,6 @@ nav {
   .nav-logo {
     position: absolute;
     margin-top: 10px;
-
     text-align: center;
   }
   .block-right {
@@ -204,7 +204,8 @@ nav {
   }
 }
 
-.club-list {
+/* hover nav menus */
+.large-menu {
   position: absolute;
   color: #a5aaae;
   text-align: left;
@@ -216,10 +217,32 @@ nav {
   zoom: 1;
   padding: 30px 30px 40px;
   ul {
-    z-index: 5500
+    z-index: 3;
   }
 }
 
+.small-menu {
+  @extend .large-menu;
+  width: 45%;
+  margin-left: 20%;
+}
+
+.club-list, .ball-list {
+  @extend .large-menu;
+}
+
+.acc-list {
+  @extend .small-menu;
+}
+
 #club-hover:hover + .club-list {
+  visibility: visible;
+}
+
+#ball-hover:hover + .ball-list {
+  visibility: visible;
+}
+
+#acc-hover:hover + .acc-list {
   visibility: visible;
 }
