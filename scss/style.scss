@@ -176,37 +176,16 @@ nav {
   img:hover {
     opacity: .9;
   }
-}
-
-.top-content {
-  @extend .normalize-row;
-  .main-image {
-    border-right: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+  .top-content {
+    @extend .normalize-row;
   }
-  .side-image {
-    border-bottom: 1px solid #fff;
+  .bottom-content {
+    @extend .normalize-row;
+    .low-image {
+      height: 280px;
+    }
   }
 }
-
-.bottom-content {
-  @extend .normalize-row;
-  .low-image {
-    height: 280px;
-  }
-  .low-left {
-    width: 38%;
-    border-right: 2px solid #fff;
-  }
-  .low-center {
-    width: 29%;
-    border-right: 2px solid #fff;
-  }
-  .low-right {
-    width: 33%;
-  }
-}
-
 /* hover nav menus */
 .large-menu {
   position: absolute;
