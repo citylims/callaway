@@ -110,46 +110,51 @@
     height: 200px;
   }
 
-  /* line 87, ../scss/responsive.scss */
+  /* line 85, ../scss/responsive.scss */
+  .low-left {
+    width: 100%;
+  }
+
+  /* line 90, ../scss/responsive.scss */
   nav .hamburger input[type="checkbox"] {
     display: none;
   }
-  /* line 90, ../scss/responsive.scss */
+  /* line 93, ../scss/responsive.scss */
   nav .hamburger .burger {
     position: absolute;
     left: 0;
     margin-top: -15px;
     padding-left: 20px;
   }
-  /* line 95, ../scss/responsive.scss */
+  /* line 98, ../scss/responsive.scss */
   nav .hamburger .burger label {
     display: block;
     font-size: 2em;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 106, ../scss/responsive.scss */
+  /* line 109, ../scss/responsive.scss */
   body {
     background-color: black;
   }
 
-  /* line 109, ../scss/responsive.scss */
+  /* line 112, ../scss/responsive.scss */
   .header-nav {
     display: none;
   }
 
-  /* line 112, ../scss/responsive.scss */
+  /* line 115, ../scss/responsive.scss */
   .ticker {
     display: none;
   }
 
-  /* line 115, ../scss/responsive.scss */
+  /* line 118, ../scss/responsive.scss */
   .mobile-top-nav {
     float: right;
     display: block;
   }
 
-  /* line 119, ../scss/responsive.scss */
+  /* line 122, ../scss/responsive.scss */
   .nav-logo {
     left: 43%;
   }

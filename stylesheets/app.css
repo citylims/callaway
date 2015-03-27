@@ -9355,12 +9355,12 @@ nav .search .fa:hover {
 }
 
 /* line 166, ../scss/style.scss */
-.normalize-row, .top-content, .bottom-content {
+.normalize-row, .main-content .top-content, .main-content .bottom-content {
   margin: 0;
   max-width: 100%;
 }
 /* line 169, ../scss/style.scss */
-.normalize-row img, .top-content img, .bottom-content img {
+.normalize-row img, .main-content .top-content img, .main-content .bottom-content img {
   padding: 0;
 }
 
@@ -9372,38 +9372,13 @@ nav .search .fa:hover {
 .main-content img:hover {
   opacity: .9;
 }
-
-/* line 183, ../scss/style.scss */
-.top-content .main-image {
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-}
-/* line 187, ../scss/style.scss */
-.top-content .side-image {
-  border-bottom: 1px solid #fff;
-}
-
-/* line 194, ../scss/style.scss */
-.bottom-content .low-image {
+/* line 184, ../scss/style.scss */
+.main-content .bottom-content .low-image {
   height: 280px;
-}
-/* line 197, ../scss/style.scss */
-.bottom-content .low-left {
-  width: 38%;
-  border-right: 2px solid #fff;
-}
-/* line 201, ../scss/style.scss */
-.bottom-content .low-center {
-  width: 29%;
-  border-right: 2px solid #fff;
-}
-/* line 205, ../scss/style.scss */
-.bottom-content .low-right {
-  width: 33%;
 }
 
 /* hover nav menus */
-/* line 211, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .large-menu, .small-menu, .acc-list, .club-list, .ball-list {
   position: absolute;
   color: #a5aaae;
@@ -9416,148 +9391,174 @@ nav .search .fa:hover {
   zoom: 1;
   padding: 30px 30px 40px;
 }
-/* line 222, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 .large-menu ul, .small-menu ul, .acc-list ul, .club-list ul, .ball-list ul {
   z-index: 3;
 }
 
-/* line 227, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 .small-menu, .acc-list {
   width: 45%;
   margin-left: 20%;
 }
 
 @media only screen and (min-width: 980px) {
-  /* line 2, ../scss/responsive.scss */
+  /* line 4, ../scss/responsive.scss */
   .mobile-top-nav {
     display: none;
   }
 
-  /* line 5, ../scss/responsive.scss */
+  /* line 7, ../scss/responsive.scss */
   .search {
     padding: 0 25px;
   }
 
-  /* line 8, ../scss/responsive.scss */
+  /* line 10, ../scss/responsive.scss */
   .nav-logo {
     left: 48%;
   }
 
-  /* line 11, ../scss/responsive.scss */
+  /* line 13, ../scss/responsive.scss */
   .main-image {
     width: 55.333%;
     height: 100%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
   }
 
-  /* line 15, ../scss/responsive.scss */
+  /* line 19, ../scss/responsive.scss */
   .side-image {
     width: 44.66%;
     max-height: 272px;
+    border-bottom: 1px solid #fff;
   }
 
-  /* line 21, ../scss/responsive.scss */
+  /* line 24, ../scss/responsive.scss */
+  .low-left {
+    width: 38%;
+    border-right: 2px solid #fff;
+  }
+
+  /* line 28, ../scss/responsive.scss */
+  .low-center {
+    width: 29%;
+    border-right: 2px solid #fff;
+  }
+
+  /* line 32, ../scss/responsive.scss */
+  .low-right {
+    width: 33%;
+  }
+
+  /* line 37, ../scss/responsive.scss */
   nav .hamburger input[type="checkbox"] {
     display: none;
   }
-  /* line 24, ../scss/responsive.scss */
+  /* line 40, ../scss/responsive.scss */
   nav .hamburger label {
     display: none;
     font-size: 2em;
   }
 }
 @media only screen and (max-width: 1025px) {
-  /* line 33, ../scss/responsive.scss */
+  /* line 49, ../scss/responsive.scss */
   .social-list {
     display: none;
   }
 
-  /* line 36, ../scss/responsive.scss */
+  /* line 52, ../scss/responsive.scss */
   .search {
     padding: 0 10px;
   }
 
-  /* line 39, ../scss/responsive.scss */
+  /* line 55, ../scss/responsive.scss */
   .nav-logo {
     left: 48%;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 46, ../scss/responsive.scss */
+  /* line 62, ../scss/responsive.scss */
   .header-nav {
     display: none;
   }
 
-  /* line 49, ../scss/responsive.scss */
+  /* line 65, ../scss/responsive.scss */
   .mobile-top-nav {
     float: right;
   }
 
-  /* line 52, ../scss/responsive.scss */
+  /* line 68, ../scss/responsive.scss */
   .social-list {
     display: none;
   }
 
-  /* line 55, ../scss/responsive.scss */
+  /* line 71, ../scss/responsive.scss */
   .block-right {
     display: none;
   }
 
-  /* line 58, ../scss/responsive.scss */
+  /* line 74, ../scss/responsive.scss */
   .block-left {
     display: none;
   }
 
-  /* line 61, ../scss/responsive.scss */
+  /* line 77, ../scss/responsive.scss */
   .main-image {
     width: 100%;
     height: 300px;
+    border-right: 0;
   }
 
-  /* line 65, ../scss/responsive.scss */
+  /* line 82, ../scss/responsive.scss */
   .side-image {
     height: 200px;
   }
 
-  /* line 70, ../scss/responsive.scss */
+  /* line 85, ../scss/responsive.scss */
+  .low-left {
+    width: 100%;
+  }
+
+  /* line 90, ../scss/responsive.scss */
   nav .hamburger input[type="checkbox"] {
     display: none;
   }
-  /* line 73, ../scss/responsive.scss */
+  /* line 93, ../scss/responsive.scss */
   nav .hamburger .burger {
     position: absolute;
     left: 0;
     margin-top: -15px;
     padding-left: 20px;
   }
-  /* line 78, ../scss/responsive.scss */
+  /* line 98, ../scss/responsive.scss */
   nav .hamburger .burger label {
     display: block;
     font-size: 2em;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 89, ../scss/responsive.scss */
+  /* line 109, ../scss/responsive.scss */
   body {
     background-color: black;
   }
 
-  /* line 92, ../scss/responsive.scss */
+  /* line 112, ../scss/responsive.scss */
   .header-nav {
     display: none;
   }
 
-  /* line 95, ../scss/responsive.scss */
+  /* line 115, ../scss/responsive.scss */
   .ticker {
     display: none;
   }
 
-  /* line 98, ../scss/responsive.scss */
+  /* line 118, ../scss/responsive.scss */
   .mobile-top-nav {
     float: right;
     display: block;
   }
 
-  /* line 102, ../scss/responsive.scss */
+  /* line 122, ../scss/responsive.scss */
   .nav-logo {
     left: 43%;
   }
