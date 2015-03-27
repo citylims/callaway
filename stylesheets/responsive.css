@@ -1,0 +1,156 @@
+@media only screen and (min-width: 980px) {
+  /* line 4, ../scss/responsive.scss */
+  .mobile-top-nav {
+    display: none;
+  }
+
+  /* line 7, ../scss/responsive.scss */
+  .search {
+    padding: 0 25px;
+  }
+
+  /* line 10, ../scss/responsive.scss */
+  .nav-logo {
+    left: 48%;
+  }
+
+  /* line 13, ../scss/responsive.scss */
+  .main-image {
+    width: 55.333%;
+    height: 100%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+
+  /* line 19, ../scss/responsive.scss */
+  .side-image {
+    width: 44.66%;
+    max-height: 272px;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* line 24, ../scss/responsive.scss */
+  .low-left {
+    width: 38%;
+    border-right: 2px solid #fff;
+  }
+
+  /* line 28, ../scss/responsive.scss */
+  .low-center {
+    width: 29%;
+    border-right: 2px solid #fff;
+  }
+
+  /* line 32, ../scss/responsive.scss */
+  .low-right {
+    width: 33%;
+  }
+
+  /* line 37, ../scss/responsive.scss */
+  nav .hamburger input[type="checkbox"] {
+    display: none;
+  }
+  /* line 40, ../scss/responsive.scss */
+  nav .hamburger label {
+    display: none;
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  /* line 49, ../scss/responsive.scss */
+  .social-list {
+    display: none;
+  }
+
+  /* line 52, ../scss/responsive.scss */
+  .search {
+    padding: 0 10px;
+  }
+
+  /* line 55, ../scss/responsive.scss */
+  .nav-logo {
+    left: 48%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* line 62, ../scss/responsive.scss */
+  .header-nav {
+    display: none;
+  }
+
+  /* line 65, ../scss/responsive.scss */
+  .mobile-top-nav {
+    float: right;
+  }
+
+  /* line 68, ../scss/responsive.scss */
+  .social-list {
+    display: none;
+  }
+
+  /* line 71, ../scss/responsive.scss */
+  .block-right {
+    display: none;
+  }
+
+  /* line 74, ../scss/responsive.scss */
+  .block-left {
+    display: none;
+  }
+
+  /* line 77, ../scss/responsive.scss */
+  .main-image {
+    width: 100%;
+    height: 300px;
+    border-right: 0;
+  }
+
+  /* line 82, ../scss/responsive.scss */
+  .side-image {
+    height: 200px;
+  }
+
+  /* line 87, ../scss/responsive.scss */
+  nav .hamburger input[type="checkbox"] {
+    display: none;
+  }
+  /* line 90, ../scss/responsive.scss */
+  nav .hamburger .burger {
+    position: absolute;
+    left: 0;
+    margin-top: -15px;
+    padding-left: 20px;
+  }
+  /* line 95, ../scss/responsive.scss */
+  nav .hamburger .burger label {
+    display: block;
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 106, ../scss/responsive.scss */
+  body {
+    background-color: black;
+  }
+
+  /* line 109, ../scss/responsive.scss */
+  .header-nav {
+    display: none;
+  }
+
+  /* line 112, ../scss/responsive.scss */
+  .ticker {
+    display: none;
+  }
+
+  /* line 115, ../scss/responsive.scss */
+  .mobile-top-nav {
+    float: right;
+    display: block;
+  }
+
+  /* line 119, ../scss/responsive.scss */
+  .nav-logo {
+    left: 43%;
+  }
+}
