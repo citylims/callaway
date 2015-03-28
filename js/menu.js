@@ -1,7 +1,3 @@
-$(document).ready(function(){
-  $("#sticker").sticky({topSpacing:0});
-});
-
 $('.club-hover').hover(
   function() {
     $(this).next().fadeIn();
