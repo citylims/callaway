@@ -12,6 +12,6 @@ setInterval(function() {
     var $this = $(this);
     $this.text($this.text() == "Find the iron that's right for you. Get Fit!" ? 'FREE SHIPPING On All Orders Over $100' : "Find the iron that's right for you. Get Fit!");
     $this.fadeIn(500);
-    $('.fa-cog').toggleClass('fa-twitter');
+    $('.fa-cogs').toggleClass('fa-truck');
   });
 }, 5000);
